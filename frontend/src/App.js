@@ -7,7 +7,9 @@ const App = () => {
     <>
       <Header />
       <main className='py-3'>
-        <h1>Welcome to proshop</h1>
+        <Container>
+          <h1>Welcome to proshop</h1>
+        </Container>
       </main>
       <Footer />
     </>
