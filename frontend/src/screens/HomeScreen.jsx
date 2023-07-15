@@ -5,6 +5,7 @@ import { useGetProductsQuery } from "../slices/productSlice";
 import Loader from "../components/Loader";
 import Paginate from "../components/Paginate";
 import Message from "../components/Message";
+import ProductCarousel from "../components/ProductCarousel";
 
 const HomeScreen = () => {
   const { pageNumber, keyword } = useParams();
@@ -16,10 +17,12 @@ const HomeScreen = () => {
 
   return (
     <>
-      {keyword && (
+      {keyword ? (
         <Link to='/' className='btn btn-light'>
           Go Back
         </Link>
+      ) : (
+        <ProductCarousel />
       )}
       {isLoading ? (
         <Loader />
