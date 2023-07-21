@@ -71,6 +71,30 @@ const products = [
     rating: 4,
     numReviews: 12,
   },
+  {
+    name: "Hp Laptop",
+    image: "/images/pc.jpg",
+    description:
+      "Laptop HP15 pour usage domestique et bureau. Processeur celeron 4020, Mémoire 4GB / Disque pour stockage 1TB SATA / sans graveur DVD / Carte Graphique UHD 600 intégrée, Webcam, bleutooth. Le laptop est en Freedos (Sans Système). le Système Windows10 Pro  est Installé.  Clavier FR. Sticker AR/FR est offert",
+    brand: "HP",
+    category: "Laptop",
+    price: 500,
+    countInStock: 5,
+    rating: 4,
+    numReviews: 12,
+  },
+  {
+    name: "Générique Unité centrale desktop",
+    image: "/images/unite_centrale.jpg",
+    description:
+      "Unité centrale montage Avec un processeur intel  i5 3470 Stockage disque dur Hdd 500 gb  pour une rapiditée  Ram 8gb ddr4 2666 Carte mere h81 alimentation 350 wattBoitier impacte e26 simple et Avec plein de cadeaux Clavier usb mactech Souris usb asa Baffle filaire de bureau",
+    brand: "DELL",
+    category: "COMPUTER",
+    price: 2050,
+    countInStock: 5,
+    rating: 3,
+    numReviews: 10,
+  },
 ];
 
 export default products;
