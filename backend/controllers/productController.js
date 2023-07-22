@@ -154,6 +154,19 @@ const getTopProducts = asyncHandler(async (req, res) => {
   res.json(products);
 });
 
+// @desc    Fetch all products
+// @route   GET /api/products
+// @access  Public
+const getProductsByCategory = asyncHandler(async (req, res) => {
+  const category = req.params.category;
+
+  const products = await Product.find({ category })
+    .sort({ created_at: -1 })
+    .limit(4);
+
+  res.send(products);
+});
+
 export {
   getProducts,
   getProductById,
@@ -162,4 +175,5 @@ export {
   deleteProduct,
   createProductReview,
   getTopProducts,
+  getProductsByCategory,
 };

@@ -95,6 +95,153 @@ const products = [
     rating: 3,
     numReviews: 10,
   },
+
+  {
+    name: "Nascita Pinceau Fond De Teint Liquide Professionnel",
+    image: "/images/beaute/1.jpg",
+    description:
+      "Caractristiques : En poils synthtiques, cest un pinceau plat au bout arrondi, bien fourni et au poil serr afin de bien taler la matire et permettre une application homogne et lisse. Utilisation : Appliquer ; Mode demploi : On part de lintrieur du visage vers lextrieur et on tale avec un mouvement de va et vient, sans trop appuyer, sur tout le visage. On fait attention bien taler la matire jusquau cou et aux oreilles pour viter les dmarcations.",
+    brand: "Nascita",
+    category: "Beauté",
+    price: 1.99,
+    countInStock: 5,
+    rating: 3,
+    numReviews: 10,
+  },
+  {
+    name: "Nascita Pinceau Fond De Teint Liquide Bronzy Glow",
+    image: "/images/beaute/2.jpg",
+    description:
+      "Caractristiques : En poils synthtiques, cest un pinceau plat au bout arrondi, bien fourni et au poil serr afin de bien taler la matire et permettre une application homogne et lisse. Utilisation : Appliquer ; Mode demploi : On part de lintrieur du visage vers lextrieur et on tale avec un mouvement de va et vient, sans trop appuyer, sur tout le visage. On fait attention bien taler la matire jusquau cou et aux oreilles pour viter les dmarcations.",
+    brand: "Nascita",
+    category: "Beauté",
+    price: 2.99,
+    countInStock: 5,
+    rating: 4,
+    numReviews: 10,
+  },
+  {
+    name: "Kiko Rouge a lèvres Liquide Kiko - Gloss Milano Unlimited - Double Touch 103",
+    image: "/images/beaute/3.jpg",
+    description:
+      "Rouge à lèvres liquide longue tenue en 2 étapes : un duo extraordinaire composé d'une base colorée et d'un gloss au fini intense et lumineux",
+    brand: "KIKO",
+    category: "Beauté",
+    price: 2.5,
+    countInStock: 5,
+    rating: 2,
+    numReviews: 10,
+  },
+  {
+    name: "Remington Lisseur Keratin Therapy Pro Straightener - S8590 - Gris",
+    image: "/images/beaute/4.jpg",
+    description:
+      "La collection Remington Keratin Therapy est une gamme d'outils de coiffage à base de kératine - un ingrédient essentiel pour des cheveux forts et sains",
+    brand: "Remington",
+    category: "Beauté",
+    price: 30.99,
+    countInStock: 5,
+    rating: 3,
+    numReviews: 10,
+  },
+
+  {
+    name: "Adidas Bottes D'Hiver Fille Impermeable Confortable Avec Fermeture Zippe- Ah2605 - Rose",
+    image: "/images/mode/1.jpg",
+    description:
+      "Bottes d'hiver fille impermeable confortable avec fermeture zippe- AH2605 - Rose. Découvrez les meilleurs prix A JUMIA pour les chaussures de sport Adidas AH2605 Rapidasnow BTW C pour enfants avec option de livraison.",
+    brand: "Adidas",
+    category: "Mode",
+    price: 20.99,
+    countInStock: 5,
+    rating: 4,
+    numReviews: 10,
+  },
+  {
+    name: "Okaidi Corsaire Malibu Aop - 0080300 - 833 - Blanc",
+    image: "/images/mode/2.jpg",
+    description:
+      "Okaïdi est une marque et une chaîne de magasins de vêtements pour enfants de 0 à 14 ans.",
+    brand: "Okaidi",
+    category: "Mode",
+    price: 10.99,
+    countInStock: 5,
+    rating: 1,
+    numReviews: 10,
+  },
+  {
+    name: "Okaidi Pantalon Sac En Papier Fille - 0094172 - Marron Poney",
+    image: "/images/mode/3.jpg",
+    description:
+      "Okaïdi est une marque et une chaîne de magasins de vêtements pour enfants de 0 à 14 ans",
+    brand: "Okaidi",
+    category: "Mode",
+    price: 10.99,
+    countInStock: 5,
+    rating: 2,
+    numReviews: 10,
+  },
+  {
+    name: "Verbaudet Haut Col Roulé Fille Motifs À Paillettes -Vert",
+    image: "/images/mode/4.jpg",
+    description:
+      "Faire passer le message et affirmer son style ! C'est facile de mettre un peu de fantaisie dans leurs looks avec ce haut col roulé. Une touche d'humour, un peu d'espièglerie et des détails pailletés. votre princesse va adorer ! Ce haut sera du plus bel effet sur votre fille. Il donnera du style, du mouvement et de la fantaisie les jours de fête. Il est très chic. Douceur et élégance avec ce haut dans l'esprit couleur. Il est conçue avec des détails raffinés pour le bonheur de votre fille. Ce haut saura séduire votre fille par sa forme et sa fantaisie. Un indispensable pour réchauffer leurs tenues et compléter leur vestiaire. Ce haut deviendra un incontournable et trouvera facilement sa place dans la garde robe de votre fille.",
+    brand: "Verbaudet",
+    category: "Mode",
+    price: 10.95,
+    countInStock: 5,
+    rating: 3,
+    numReviews: 10,
+  },
+
+  {
+    name: "THOMSON Téléviseur 55 pouces SMART 4K UHD - 55TG7UA9N - Noir",
+    image: "/images/electromenager/1.jpg",
+    description:
+      "Pour une immersion totale dans vos films et séries préférés, les téléviseurs Thomson vous offrent le meilleur de la technologie haute définition : cran 4K (résolution de 3840x2160px), Full HD (1920x1080px) ou HD Ready (1280x720 pixels). Facile installer et utiliser, les TV sont fiables et durables, nous proposons des crans 32 pouces jusqu' 75 pouces pour du très grand format TV. Le Dolby Audio garantit une qualité sonore incomparable pour les films, le sport et les documentaires. Vous pouvez installer votre télévision sur le mur (avec le support adapté) ou pose sur un meuble TV grâce leurs pieds solides. Les TV sont livres avec une télécommande (commande vocale disponible sur certains modèles), prête à fonctionner. Les télévisions sont disponibles sur Jumia Algrie.",
+    brand: "THOMSON",
+    category: "Électroménager",
+    price: 500.99,
+    countInStock: 5,
+    rating: 4,
+    numReviews: 10,
+  },
+  {
+    name: "IRIS Centrifugeuse - KP 60 - Noir",
+    image: "/images/electromenager/2.jpg",
+    description:
+      "Le produit IRIS est un produit fait par les Algériens en intégrant une technologie et un savoir-faire européen avec des normes mondiales. ",
+    brand: "IRIS",
+    category: "Électroménager",
+    price: 30,
+    countInStock: 5,
+    rating: 2,
+    numReviews: 10,
+  },
+  {
+    name: "THOMSON Cuisinière Classica - 4 Foyer A Gaz - 60 - 660Fdr - Noir",
+    image: "/images/electromenager/3.jpg",
+    description:
+      "Riche d’un héritage de plus de 120 ans, la marque Thomson a pris part aux plus grandes révolutions technologiques et a toujours eu à cœur de rendre l’innovation utile et accessible à tous.",
+    brand: "THOMSON",
+    category: "Électroménager",
+    price: 150.99,
+    countInStock: 5,
+    rating: 1,
+    numReviews: 10,
+  },
+  {
+    name: "IRIS Presse Agrume - Kp100 - Gris",
+    image: "/images/electromenager/4.jpg",
+    description:
+      "Le produit IRIS est un produit fait par les Algériens en intégrant une technologie et un savoir-faire européen avec des normes mondiales. Le design conçu se caractérise par un meilleur confort, une haute résistance au roulement, une meilleure absorption de vibration et un niveau de bruit réduit.",
+    brand: "IRIS",
+    category: "Électroménager",
+    price: 17.95,
+    countInStock: 5,
+    rating: 5,
+    numReviews: 10,
+  },
 ];
 
 export default products;
